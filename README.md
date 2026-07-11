@@ -128,16 +128,32 @@ over the old one and keeps your settings and history.
 
 ---
 
-## ☕ Enjoying it? Buy me a coffee!
+## ☕ The Tip Jar — now serving gratitude
 
-This is a free labor of love, and it always will be. If it saved you some
-headaches and put subtitles on your favorite show, a small tip would absolutely
-make my day and keep the late-night coding fueled. 🙌
+```
+        ( (
+         ) )
+      ........
+      |      |]     Freshly brewed by a human who
+      \      /      likes subtitles and quiet weekends.
+       `----'       100% free. 0% ads. Powered by coffee.
+```
 
-**→ [Sponsor a coffee or send a little something on Venmo](https://venmo.com/u/Chethanjs)**
+This app is free and always will be — no ads, no accounts to me, no catch.
+But if it rescued movie night, put subtitles on your favorite show, and picked
+up right where you left off... maybe it's earned a coffee? ☕
 
-Every bit — big or small — is hugely appreciated. Thank you so much for your
-generosity and for using this. You're the best! 💛
+**Pick your pour — [tip jar on Venmo → @Chethanjs](https://venmo.com/u/Chethanjs)**
+
+| What you tip | What it fuels |
+|---|---|
+| ☕ **Espresso** | One shot of "oh nice, someone noticed!" |
+| ☕☕ **Latte** | A comfy evening of squashing bugs |
+| ☕☕☕ **Whole pot** | Legend status + my eternal gratitude |
+| 🫙 **Just here to say thanks** | Also perfect. Genuinely. |
+
+However you pour it — big, small, or just a kind thought — **thank you.** You
+using this at all already made the whole thing worth it. 💛
 
 ---
 
