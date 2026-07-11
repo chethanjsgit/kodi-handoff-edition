@@ -128,6 +128,19 @@ over the old one and keeps your settings and history.
 
 ---
 
+## ☕ Enjoying it? Buy me a coffee!
+
+This is a free labor of love, and it always will be. If it saved you some
+headaches and put subtitles on your favorite show, a small tip would absolutely
+make my day and keep the late-night coding fueled. 🙌
+
+**→ [Sponsor a coffee or send a little something on Venmo](https://venmo.com/u/Chethanjs)**
+
+Every bit — big or small — is hugely appreciated. Thank you so much for your
+generosity and for using this. You're the best! 💛
+
+---
+
 *Built from official Kodi 21.3 "Omega" (open source) with the handoff features
 added. App id `org.xbmc.kodi`, signed by ikeamrf (). Because
 it's installed outside the app store, it won't auto-update — get new versions
