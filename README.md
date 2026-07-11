@@ -1,94 +1,120 @@
 # Kodi Handoff Edition 3.0
 
-One APK. Official Kodi with IPTV-handoff superpowers baked in: play a movie
-or show from your IPTV app (TiviMate etc.) and it opens in Kodi with the
-**correct title**, **auto-downloaded subtitles that are remembered**, and
-**resume from where you left off** — none of which stock Kodi does for
-streams launched by another app.
+Play a movie or show from your IPTV app (like TiviMate) and it opens in Kodi
+with the **correct title**, **subtitles that download automatically and are
+remembered**, and it **resumes from where you left off**. Everything is in one
+app — you don't install any add-ons.
 
-Everything is inside this single file: Kodi 21.3, the title-relay, the
-resume/subtitle engine, and the OpenSubtitles.com subtitle add-on, all
-pre-installed and pre-configured. The only thing you type is your
-OpenSubtitles.com login, once.
+Works on **Fire TV Stick** and most **Android TV / Google TV** devices.
 
-Works on Fire TV Stick and virtually all Android TV / Google TV boxes
-(32-bit ARM build).
+**Downloader code: `5040864`**
+
+All versions: https://github.com/chethanjsgit/kodi-handoff-edition/releases
 
 ---
 
-## Install (about 3 minutes)
+## Install — just follow these steps in order
 
-1. **Allow sideloading**: Settings → My Fire TV → Developer options → turn on
-   **Apps from Unknown Sources** (allow it for the app you install from,
-   e.g. Downloader). *(Developer options hidden? Settings → My Fire TV →
-   About → click the device name 7 times.)*
+You'll do this once. Take about 5 minutes.
 
-2. **Uninstall any existing Kodi first.** This build replaces the official
-   Kodi app and is signed differently, so a regular Kodi must be removed or
-   the install will fail. *(If you have a Kodi setup you care about, back it
-   up first — its data will be gone.)*
+### Step 1 — Get the "Downloader" app
 
-3. **Install `Kodi-Handoff-Edition-3.0.apk`**:
-   - With the **Downloader** app: host the APK somewhere with a direct link
-     and open it in Downloader, or sideload however you prefer.
-   - With **adb** from a computer:
-     ```
-     adb connect <FIRESTICK_IP>:5555
-     adb install Kodi-Handoff-Edition-3.0.apk
-     ```
+- **Fire TV Stick:** from the Fire TV home screen, search (magnifying glass) for
+  **Downloader**, and install the orange app by AFTVnews.
+- **Android TV / Google TV:** open the **Google Play Store**, search for
+  **Downloader**, and install it.
 
-4. **Open Kodi once.** On first launch it asks for your **OpenSubtitles.com**
-   username and password. Enter them, or press Cancel/Back to skip (you'll
-   rarely get subtitles without an account — free signup at
-   opensubtitles.com). This is asked only once.
+### Step 2 — Turn on app installing (do this once)
 
-5. **Point your IPTV app at Kodi.** In TiviMate: Settings → Playback →
-   Video player → **Custom player** → select **Kodi**. (Other apps: choose
-   Kodi as the external player.)
+**On Fire TV Stick:**
+1. Go to **Settings** (the gear icon) → **My Fire TV** → **Developer options**.
+   - Don't see Developer options? Go to **Settings → My Fire TV → About**, then
+     click on the **device name** 7 times until it says you're a developer, then
+     go back.
+2. Turn on **Install unknown apps** (or "Apps from Unknown Sources"), and in the
+   list, turn it **ON for Downloader**.
 
-That's it. No add-ons to install, no subtitle service to configure — it's
-all inside.
+**On Android TV / Google TV:**
+1. Go to **Settings → System → About**, scroll to **Android TV OS build**, and
+   click it **7 times** until it says "You are now a developer."
+2. Go to **Settings → Apps → Security & restrictions → Unknown sources**, and
+   turn it **ON for Downloader**.
+
+### Step 3 — Remove any old Kodi first (important)
+
+If you already have Kodi installed, **uninstall it** before continuing, or the
+new app won't install. (Settings → Applications → find Kodi → Uninstall.)
+If you've never had Kodi, skip this step.
+
+### Step 4 — Download and install with the code
+
+1. Open the **Downloader** app.
+2. In the box at the top, type this code: **`5040864`** and press **Go**.
+3. Wait for it to download (it's about 65 MB).
+4. When it finishes, a screen asks **"Do you want to install this
+   application?"** — choose **Install**.
+5. After it installs, choose **Done** (not "Open" yet — Downloader will offer to
+   delete the downloaded file; you can say **Delete** to save space).
+
+### Step 5 — Open Kodi and sign in to subtitles (once)
+
+1. Open **Kodi** (it may say "Preparing for first run" — wait a moment).
+2. It will ask for your **OpenSubtitles.com username**, then **password**.
+   Type them in.
+   - Don't have an account? It's free — sign up at **opensubtitles.com** first
+     (an OpenSubtitles.com account is what lets subtitles download).
+   - Want to skip for now? Press **Back** on each prompt. You can add it later.
+3. That's the only setup. It won't ask again.
+
+### Step 6 — Tell your IPTV app to use Kodi
+
+In **TiviMate**: Settings → **Playback** → **Video player** → **Custom player**
+→ choose **Kodi**.
+(Other IPTV apps: wherever you pick an "external" or "custom" player, choose
+**Kodi**.)
+
+**Done!** Now play anything in your IPTV app and it opens in Kodi with the title,
+subtitles, and resume all handled for you.
 
 ---
 
-## Using it
+## How to use it day to day
 
-- **Play** a movie or episode in your IPTV app → it opens in Kodi with the
-  right title.
-- **Subtitles download automatically** — the best-rated matching subtitle
-  is fetched and shown without touching a menu. To pick a different one:
-  press Select during playback → speech-bubble icon → Download subtitle.
-- Once downloaded for a title, a subtitle is **remembered** and reappears
-  automatically next time — no re-download.
-- **Resume**: stop or quit anytime. Replaying the same title jumps back to
-  where you left off ("Resumed at …" appears briefly).
-- **Subtitle out of sync?** Speech-bubble menu → Subtitle delay (positive =
-  later); "Set as default for all media" makes it stick.
+- **Just play** a movie or episode in your IPTV app — it opens in Kodi.
+- **Subtitles come on by themselves** — the best-rated match is downloaded and
+  shown automatically. To pick a different one: press the **Select/OK** button
+  during playback, click the **speech-bubble icon**, then **Download subtitle**.
+- A subtitle you've used for a title is **remembered** — next time it comes back
+  automatically, no downloading again.
+- **Resume:** stop or leave anytime. Play the same title again and it jumps back
+  to where you stopped ("Resumed at …" flashes on screen).
+- **Subtitles a little early or late?** During playback: **Select/OK** →
+  speech-bubble icon → **Subtitle delay**, and nudge it. Choose "Set as default
+  for all media" to keep it.
 
-## Change or add your OpenSubtitles login later
+## If something's not working
 
-Settings → Add-ons → My add-ons → Subtitle download services →
-OpenSubtitles.com → Configure.
+- **"Failed to download subtitle (HTTP 406)"** — your free OpenSubtitles.com
+  account has used its 20 downloads for the day. It resets every day. Subtitles
+  you already have still work and don't count again.
+- **"No subtitles found"** on a brand-new movie — subtitles may not exist yet
+  that early. Make sure your OpenSubtitles.com login is entered (Step 5).
+- **The title/subtitles/resume don't happen** — your IPTV app is opening Kodi
+  the wrong way. Recheck Step 6: it must use **Kodi** as the custom/external
+  player.
+- **Need to change your OpenSubtitles login later** — in Kodi: Settings →
+  Add-ons → My add-ons → Subtitle download services → OpenSubtitles.com →
+  Configure.
 
-## Troubleshooting
+## Getting a newer version later
 
-- **"Failed to download subtitle (HTTP 406)"** — the free OpenSubtitles.com
-  account's 20-downloads-per-day limit is used up; it resets daily at
-  23:59 UTC. (Subtitles you already downloaded still work; they're
-  remembered and don't count again.)
-- **"No subtitles found" on a brand-new movie** — subtitles may simply not
-  exist yet that early; make sure your OpenSubtitles.com login is set so all
-  available results show.
-- **Title/resume magic doesn't happen** — your IPTV app is launching Kodi
-  directly; recheck step 5 (it must use Kodi as an external/custom player).
+New versions are posted here: **https://github.com/chethanjsgit/kodi-handoff-edition/releases**
+Install a newer one the same way (Downloader code above) — it installs right
+over the old one and keeps your settings and history.
 
-## About this build
+---
 
-- Based on official, unmodified **Kodi 21.3 "Omega"** (GPL) from kodi.tv,
-  repackaged with add-ons. Subtitle add-ons and the OpenSubtitles services
-  are open source (MIT/GPL). The handoff add-on and relay are original.
-- Package id `org.xbmc.kodi`; signed by **ikeamrf** (``).
-  Verify with `apksigner verify --print-certs Kodi-Handoff-Edition-3.0.apk`
-  — SHA-256 `91ed1bb02364f1f20e483e6e224af899ea06e3f14626c2c3e35bd92a5f988cb2`.
-- Because it's sideloaded, it won't auto-update — new versions are installed
-  the same way (they install over this one; same signer).
+*Built from official Kodi 21.3 "Omega" (open source) with the handoff features
+added. App id `org.xbmc.kodi`, signed by ikeamrf (). Because
+it's installed outside the app store, it won't auto-update — get new versions
+from the releases link above.*
