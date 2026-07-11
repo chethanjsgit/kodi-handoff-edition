@@ -95,9 +95,16 @@ subtitles, and resume all handled for you.
 ## How to use it day to day
 
 - **Just play** a movie or episode in your IPTV app — it opens in Kodi.
-- **Subtitles come on by themselves** — the best-rated match is downloaded and
-  shown automatically. To pick a different one: press the **Select/OK** button
-  during playback, click the **speech-bubble icon**, then **Download subtitle**.
+- **Subtitles usually come on by themselves** — the best-rated match is
+  downloaded and shown automatically.
+- **If subtitles don't show up**, download them by hand — it's quick:
+  1. During playback, press the **Select/OK** button to bring up the on-screen
+     controls.
+  2. Click the **Subtitles icon** (the speech bubble, right next to the **gear**
+     icon at the bottom).
+  3. Choose **Download subtitle** and pick one from the list (names with
+     "WEB-DL" or "WEBRip" usually match IPTV streams best).
+  The one you pick shows right away — and is remembered for next time.
 - A subtitle you've used for a title is **remembered** — next time it comes back
   automatically, no downloading again.
 - **Resume:** stop or leave anytime. Play the same title again and it jumps back
@@ -111,6 +118,9 @@ subtitles, and resume all handled for you.
 - **"Failed to download subtitle (HTTP 406)"** — your free OpenSubtitles.com
   account has used its 20 downloads for the day. It resets every day. Subtitles
   you already have still work and don't count again.
+- **Subtitles didn't appear on their own** — no problem, grab them manually:
+  press **Select/OK** during playback, click the **Subtitles icon** (speech
+  bubble, next to the gear icon), then **Download subtitle**.
 - **"No subtitles found"** on a brand-new movie — subtitles may not exist yet
   that early. Make sure your OpenSubtitles.com login is entered (Step 5).
 - **The title/subtitles/resume don't happen** — your IPTV app is opening Kodi
