@@ -154,7 +154,18 @@ over the old one and keeps your settings and history.
 
 ---
 
-## Tip jar (optional, no hard feelings)
+## Donate (optional, no hard feelings)
+
+```
+        _______________
+       |_|  DONATE   |_|
+       | |___________| |
+       |   o   $   o   |
+       |  $   o   $    |
+       |   o   $   o   |
+       |_______________|
+          @Chethanjs
+```
 
 No subscription. No ads. No "start your 7-day free trial." No account that
 mysteriously needs your email. Just one person building a thing that works and
@@ -166,8 +177,8 @@ forgot where you were — and you feel like sending a few bucks its way:
 
 **Venmo → [@Chethanjs](https://venmo.com/u/Chethanjs)**
 
-Tip the price of a coffee, a taco, or nothing at all — genuinely no pressure.
-Just using it is already a win. 🙂
+Donate the price of a coffee, a taco, or nothing at all — genuinely no
+pressure. Just using it is already a win. 🙂
 
 ---
 
