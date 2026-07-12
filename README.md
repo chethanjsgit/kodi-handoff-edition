@@ -1,4 +1,4 @@
-# Kodi Handoff Edition 3.0
+# Kodi Handoff Edition 3.1
 
 Play a movie or show from your IPTV app (like TiviMate) and it opens in Kodi
 with the **correct title**, **subtitles that download automatically and are
@@ -12,7 +12,14 @@ have to do anything; it just finds one and turns it on.
 
 Works on **Fire TV Stick** and most **Android TV / Google TV** devices.
 
-**Downloader code: `5040864`**
+## Downloader codes
+
+- **`4186239`** — recommended. Always installs the **newest** version
+  (currently 3.1), and will keep working for future updates.
+- **`5040864`** — previous code, kept for reference. Points at the 3.0 build.
+
+No-code option — paste this direct link into Downloader (always newest):
+`https://github.com/chethanjsgit/kodi-handoff-edition/releases/latest/download/Kodi-Handoff-Edition.apk`
 
 All versions: https://github.com/chethanjsgit/kodi-handoff-edition/releases
 
@@ -69,7 +76,7 @@ If you've never had Kodi, skip this step.
 ### Step 4 — Download and install with the code
 
 1. Open the **Downloader** app.
-2. In the box at the top, type this code: **`5040864`** and press **Go**.
+2. In the box at the top, type this code: **`4186239`** and press **Go**.
 3. Wait for it to download (it's about 65 MB).
 4. When it finishes, a screen asks **"Do you want to install this
    application?"** — choose **Install**.
