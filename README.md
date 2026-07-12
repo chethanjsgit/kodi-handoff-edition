@@ -5,6 +5,11 @@ with the **correct title**, **subtitles that download automatically and are
 remembered**, and it **resumes from where you left off**. Everything is in one
 app — you don't install any add-ons.
 
+Subtitles come from **OpenSubtitles.com** first, and if it doesn't have a
+match, the app automatically falls back to **SubtitleCat** (no login, no daily
+limit) — which is great for shows with long, messy release names. You don't
+have to do anything; it just finds one and turns it on.
+
 Works on **Fire TV Stick** and most **Android TV / Google TV** devices.
 
 **Downloader code: `5040864`**
@@ -122,7 +127,11 @@ subtitles, and resume all handled for you.
   press **Select/OK** during playback, click the **Subtitles icon** (speech
   bubble, next to the gear icon), then **Download subtitle**.
 - **"No subtitles found"** on a brand-new movie — subtitles may not exist yet
-  that early. Make sure your OpenSubtitles.com login is entered (Step 5).
+  that early on either OpenSubtitles or SubtitleCat. Make sure your
+  OpenSubtitles.com login is entered (Step 5) so all results show.
+- **A subtitle looks machine-translated** — for less common languages,
+  SubtitleCat sometimes only has AI-translated subtitles. The app prefers
+  human/original ones and only uses AI as a last resort.
 - **The title/subtitles/resume don't happen** — your IPTV app is opening Kodi
   the wrong way. Recheck Step 6: it must use **Kodi** as the custom/external
   player.
