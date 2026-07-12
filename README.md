@@ -154,32 +154,20 @@ over the old one and keeps your settings and history.
 
 ---
 
-## ☕ The Tip Jar — now serving gratitude
+## Tip jar (optional, no hard feelings)
 
-```
-        ( (
-         ) )
-      ........
-      |      |]     Freshly brewed by a human who
-      \      /      likes subtitles and quiet weekends.
-       `----'       100% free. 0% ads. Powered by coffee.
-```
+No subscription. No ads. No "start your 7-day free trial." No account that
+mysteriously needs your email. Just one person building a thing that works and
+giving it away.
 
-This app is free and always will be — no ads, no accounts to me, no catch.
-But if it rescued movie night, put subtitles on your favorite show, and picked
-up right where you left off... maybe it's earned a coffee? ☕
+If it spared you the usual streaming rituals — hunting for a subtitle that
+actually syncs, or scrubbing back through half an episode because the player
+forgot where you were — and you feel like sending a few bucks its way:
 
-**Pick your pour — [tip jar on Venmo → @Chethanjs](https://venmo.com/u/Chethanjs)**
+**Venmo → [@Chethanjs](https://venmo.com/u/Chethanjs)**
 
-| What you tip | What it fuels |
-|---|---|
-| ☕ **Espresso** | One shot of "oh nice, someone noticed!" |
-| ☕☕ **Latte** | A comfy evening of squashing bugs |
-| ☕☕☕ **Whole pot** | Legend status + my eternal gratitude |
-| 🫙 **Just here to say thanks** | Also perfect. Genuinely. |
-
-However you pour it — big, small, or just a kind thought — **thank you.** You
-using this at all already made the whole thing worth it. 💛
+Tip the price of a coffee, a taco, or nothing at all — genuinely no pressure.
+Just using it is already a win. 🙂
 
 ---
 
