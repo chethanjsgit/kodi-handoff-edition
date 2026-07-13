@@ -1,28 +1,33 @@
-# Kodi Handoff Edition 3.2
+# Kodi Handoff Edition — Auto Subtitles & Resume for TiviMate / IPTV VOD
 
-Play a movie or show from your IPTV app (like TiviMate) and it opens in Kodi
-with the **correct title**, **subtitles that download automatically and are
-remembered**, and it **resumes from where you left off**. Everything is in one
-app — you don't install any add-ons.
+**Automatic subtitles and resume playback for TiviMate and any IPTV / VOD app on
+Kodi — Fire TV Stick, Android TV, and Google TV.** Play a movie or TV show from
+your IPTV app and it opens in Kodi with the **correct title**, **subtitles
+downloaded automatically and remembered**, and **resume from where you left
+off**. Everything is in one sideloaded APK — no add-ons to install.
 
 Subtitles are found automatically across several sources, in order:
 **OpenSubtitles.com** first, then **OpenSubtitles.org** (great for brand-new
-shows the .com site doesn't have yet), then **SubtitleCat** — none needing a
-login for the fallbacks. You don't have to do anything; it finds one and turns
-it on. This is especially handy for shows with long, messy IPTV release names.
+shows the .com site doesn't have yet), then **SubtitleCat** — no login needed for
+the fallbacks. Especially handy for **TiviMate VOD** and shows with long, messy
+IPTV release filenames.
+
+*Keywords: TiviMate subtitles, Kodi IPTV subtitles, Fire TV Stick subtitles,
+Android TV / Google TV, VOD movies & TV shows, OpenSubtitles, SubtitleCat, auto
+subtitle downloader, resume playback, external player for IPTV.*
 
 Works on **Fire TV Stick** and most **Android TV / Google TV** devices.
 
 ## Downloader codes
 
 - **`4186239`** — recommended. Always installs the **newest** version
-  (currently 3.1), and will keep working for future updates.
+  (currently 3.2), and will keep working for future updates.
 - **`5040864`** — previous code, kept for reference. Points at the 3.0 build.
 
 No-code option — paste this direct link into Downloader (always newest):
-`https://github.com/chethanjsgit/kodi-handoff-edition/releases/latest/download/Kodi-Handoff-Edition.apk`
+`https://github.com/chethanjsgit/kodi-tivimate-vod-subtitles/releases/latest/download/Kodi-Handoff-Edition.apk`
 
-All versions: https://github.com/chethanjsgit/kodi-handoff-edition/releases
+All versions: https://github.com/chethanjsgit/kodi-tivimate-vod-subtitles/releases
 
 ---
 
@@ -149,7 +154,7 @@ subtitles, and resume all handled for you.
 
 ## Getting a newer version later
 
-New versions are posted here: **https://github.com/chethanjsgit/kodi-handoff-edition/releases**
+New versions are posted here: **https://github.com/chethanjsgit/kodi-tivimate-vod-subtitles/releases**
 Install a newer one the same way (Downloader code above) — it installs right
 over the old one and keeps your settings and history.
 
