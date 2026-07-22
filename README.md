@@ -21,7 +21,7 @@ Works on **Fire TV Stick** and most **Android TV / Google TV** devices.
 ## Downloader codes
 
 - **`4186239`** — recommended. Always installs the **newest** version
-  (currently 3.2), and will keep working for future updates.
+  (currently 3.3), and will keep working for future updates.
 - **`5040864`** — previous code, kept for reference. Points at the 3.0 build.
 
 No-code option — paste this direct link into Downloader (always newest):
@@ -145,6 +145,12 @@ subtitles, and resume all handled for you.
 - **A subtitle looks machine-translated** — for less common languages,
   SubtitleCat sometimes only has AI-translated subtitles. The app prefers
   human/original ones and only uses AI as a last resort.
+- **Subtitles drift more and more out of sync as the episode goes on** — that's
+  a "sped-up" (PAL) stream, and the app now **auto-corrects the obvious ones**.
+  If one still drifts, that stream is only slightly sped up (too subtle to detect
+  safely) — try a different subtitle from **Download subtitle**, or a different
+  source for that title. A *constant* offset (off by the same amount throughout)
+  can't be adjusted on some IPTV streams because they're served live-style.
 - **The title/subtitles/resume don't happen** — your IPTV app is opening Kodi
   the wrong way. Recheck Step 6: it must use **Kodi** as the custom/external
   player.
